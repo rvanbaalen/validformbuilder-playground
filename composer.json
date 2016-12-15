@@ -1,0 +1,16 @@
+{
+    "name": "validformbuilder/playground",
+    "description": "An easy and fast playground for ValidForm Builder",
+    "type": "project",
+    "require": {
+        "neverwoods/validformbuilder": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin van Baalen",
+            "email": "robin@cattlea.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
