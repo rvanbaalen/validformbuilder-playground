@@ -1,9 +1,13 @@
 # ValidForm Builder Playground
 An easy to use playground to get your hands dirty with ValidForm Builder
 
-## How to use
+## Install
 
-From the project root, run `composer install` to set things up and run `composer run-script playground` to get started.
+Run `composer install` from the project root
+
+## Get started
+
+Run `composer run-script playground` to get started. This will start a basic webserver on `localhost:8000`
 
 ## Requirements
 
