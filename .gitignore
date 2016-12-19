@@ -1,0 +1,8 @@
+/vendor
+/public/js/validwizard.js
+/public/js/validform.js
+/public/js/jquery.min.js
+/public/css/validform.css
+/public/css/normalize.css
+/node_modules
+/.idea

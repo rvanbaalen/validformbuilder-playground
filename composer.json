@@ -12,5 +12,16 @@
             "email": "robin@cattlea.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": [
+            "echo \"Placing ValidForm Builder static files in public folder...\"",
+            "php -r \"copy('vendor/neverwoods/validformbuilder/js/validform.js', 'public/js/validform.js');\"",
+            "php -r \"copy('vendor/neverwoods/validformbuilder/js/validwizard.js', 'public/js/validwizard.js');\"",
+            "php -r \"copy('vendor/neverwoods/validformbuilder/css/validform.css', 'public/css/validform.css');\"",
+            "echo 'Installing client-side dependencies'",
+            "yarn install"
+        ],
+        "playground": "open http://localhost:8000 && php -S localhost:8000 -t public/"
+    }
 }

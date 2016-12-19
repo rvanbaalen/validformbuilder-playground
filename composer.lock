@@ -1,0 +1,109 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7e2c8cb72458db73ab32b0dbc8a4c2a8",
+    "content-hash": "85211fd6406264c2634334cdba29f7fc",
+    "packages": [
+        {
+            "name": "neverwoods/validformbuilder",
+            "version": "v4.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neverwoods/validformbuilder.git",
+                "reference": "5a91c8bd10268abc601d14623e9967b8a883692a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neverwoods/validformbuilder/zipball/5a91c8bd10268abc601d14623e9967b8a883692a",
+                "reference": "5a91c8bd10268abc601d14623e9967b8a883692a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "volnix/csrf": "~1.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ValidFormBuilder": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU GPL v2"
+            ],
+            "authors": [
+                {
+                    "name": "Felix Langfeldt",
+                    "email": "felix@neverwoods.com"
+                },
+                {
+                    "name": "Robin van Baalen",
+                    "email": "robin@cattlea.com"
+                }
+            ],
+            "description": "The easiest tool for generating XHTML 1.0 valid and CSS enabled webforms.",
+            "homepage": "http://www.validformbuilder.org/",
+            "keywords": [
+                "building",
+                "form",
+                "validation"
+            ],
+            "time": "2016-11-22 13:34:32"
+        },
+        {
+            "name": "volnix/csrf",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/volnix/csrf.git",
+                "reference": "73743e18c22e680dfb6b34d0f7e8a649b4fc9532"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/volnix/csrf/zipball/73743e18c22e680dfb6b34d0f7e8a649b4fc9532",
+                "reference": "73743e18c22e680dfb6b34d0f7e8a649b4fc9532",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Volnix\\CSRF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Volgas",
+                    "email": "nvolgas@ark.org"
+                }
+            ],
+            "description": "CSRF protection library that compares provided token to session token to ensure request validity.",
+            "homepage": "https://github.com/volnix/csrf",
+            "time": "2015-11-24 15:32:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
