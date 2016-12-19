@@ -19,3 +19,8 @@ You need to have `composer` and `yarn`* installed globally.
  - [What is Yarn](https://code.facebook.com/posts/1840075619545360)
  - [How to install Yarn](https://yarnpkg.com/en/docs/install)
  - [How to install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+ 
+## Todo
+
+- [ ] Allow users to submit example forms and view results
+- [ ] Use front-end framework like bootstrap for nicer styling
