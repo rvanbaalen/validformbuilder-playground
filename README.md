@@ -11,7 +11,7 @@ Run `composer run-script playground` to get started. This will start a basic web
 
 ## Requirements
 
-You need to have `composer` and `yarn`* installed globally.
+You need to have `composer` and `yarn`* installed on your development machine.
 
 **Yarn serves as a faster alternative for `npm`*
 
