@@ -3,7 +3,7 @@
     "description": "An easy and fast playground for ValidForm Builder",
     "type": "project",
     "require": {
-        "neverwoods/validformbuilder": "^4.1"
+        "neverwoods/validformbuilder": "*"
     },
     "license": "MIT",
     "authors": [
@@ -12,7 +12,7 @@
             "email": "robin@cattlea.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "scripts": {
         "post-install-cmd": [
             "echo \"Placing ValidForm Builder static files in public folder...\"",
