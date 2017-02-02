@@ -25,7 +25,16 @@ $includePath = '../src/sandbox.php';
 <h1>ValidForm Builder Playground</h1>
 <p>This file serves as a playground for ValidForm Builder. Edit the contents of <code>src/sandbox.php</code> to change the form below. Alternatively, you can <a href="examples.php">browse through the form examples</a>.</p>
 
-<h2><?=$includePath?></h2>
+<h2 id="output">Output</h2>
+<a href="#source">View source</a><br>
+<?php
+
+require_once($includePath);
+
+?>
+<hr>
+<h2 id="source">Source of <?=$includePath?></h2>
+<a href="#output">View output</a><br>
 <pre>
 <code>
 <?php
@@ -37,13 +46,9 @@ echo $source;
 ?>
 </code>
 </pre>
-<hr>
-<h2>Output</h2>
-<?php
 
-    require_once($includePath);
-
-?>
+<br>
+<a href="#source">View source</a> - <a href="#output">View output</a><br>
 
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
