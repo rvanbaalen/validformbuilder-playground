@@ -22,5 +22,6 @@ You need to have `composer` and `yarn`* installed on your development machine.
  
 ## Todo
 
-- [ ] Allow users to submit example forms and view results
+- [X] Allow users to submit example forms and view results
 - [ ] Use front-end framework like bootstrap for nicer styling
+- [ ] Implement something like https://github.com/Corveda/PHPSandbox to create a hosted version of the ValidForm Builder Playground
