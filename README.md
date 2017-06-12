@@ -7,7 +7,7 @@ Run `composer install` from the project root
 
 ## Get started
 
-Run `composer run-script playground` to get started. This will start a basic webserver on `localhost:8000`
+Run `open http://localhost:8000 && php -S localhost:8000 -t public/` to get started. This will start a basic webserver on `localhost:8000`
 
 ## Requirements
 
