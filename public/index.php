@@ -1,5 +1,10 @@
 <?php
+/**
+ * Some settings and configuration
+ */
 $includePath = '../src/sandbox.php';
+$showSource = false;
+
 ?>
 <!doctype html>
 <html class="no-js" lang="">
@@ -32,6 +37,8 @@ $includePath = '../src/sandbox.php';
 require_once($includePath);
 
 ?>
+
+<?php if ($showSource): ?>
 <hr>
 <h2 id="source">Source of <?=$includePath?></h2>
 <a href="#output">View output</a><br>
@@ -51,5 +58,6 @@ echo $source;
 <a href="#source">View source</a> - <a href="#output">View output</a><br>
 
 <script>hljs.initHighlightingOnLoad();</script>
+<?php endif; ?>
 </body>
 </html>
