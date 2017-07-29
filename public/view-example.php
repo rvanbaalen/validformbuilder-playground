@@ -1,7 +1,7 @@
 <?php
 
 $example = $_GET['example'];
-$path = '../vendor/neverwoods/validformbuilder/examples/';
+$path = '../vendor/validformbuilder/validformbuilder/examples/';
 $includePath = $path . $example . '.php';
 
 if (!file_exists($includePath)) {
