@@ -17,7 +17,7 @@
 <body>
 
 <h1>ValidForm Builder examples</h1>
-<p>These examples are coming straight from <a href="https://github.com/neverwoods/validformbuilder/examples">https://github.com/neverwoods/validformbuilder/examples</a></p>
+<p>These examples are coming straight from <a href="https://github.com/validformbuilder/validformbuilder/examples">https://github.com/validformbuilder/validformbuilder/examples</a></p>
 
 <h2>Basics</h2>
 <ul>
@@ -25,6 +25,7 @@
     <li><a href="view-example.php?example=basics/create-multifield">Create a multifield</a></li>
     <li><a href="view-example.php?example=basics/file-upload">File upload</a></li>
     <li><a href="view-example.php?example=basics/string-input-field">String input field</a></li>
+    <li><a href="view-example.php?example=basics/password-field-custom-validation">Password field with custom validation</a></li>
 </ul>
 
 <h2>Conditions</h2>

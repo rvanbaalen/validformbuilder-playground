@@ -3,7 +3,7 @@
     "description": "An easy and fast playground for ValidForm Builder",
     "type": "project",
     "require": {
-        "neverwoods/validformbuilder": "*"
+        "validformbuilder/validformbuilder": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -16,9 +16,9 @@
     "scripts": {
         "post-install-cmd": [
             "echo \"Placing ValidForm Builder static files in public folder...\"",
-            "php -r \"copy('vendor/neverwoods/validformbuilder/js/validform.js', 'public/js/validform.js');\"",
-            "php -r \"copy('vendor/neverwoods/validformbuilder/js/validwizard.js', 'public/js/validwizard.js');\"",
-            "php -r \"copy('vendor/neverwoods/validformbuilder/css/validform.css', 'public/css/validform.css');\"",
+            "php -r \"copy('vendor/validformbuilder/validformbuilder/js/validform.js', 'public/js/validform.js');\"",
+            "php -r \"copy('vendor/validformbuilder/validformbuilder/js/validwizard.js', 'public/js/validwizard.js');\"",
+            "php -r \"copy('vendor/validformbuilder/validformbuilder/css/validform.css', 'public/css/validform.css');\"",
             "echo 'Installing client-side dependencies'",
             "yarn install"
         ],

@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e803e4a73f4db460eb4f68063eec29f",
-    "content-hash": "76f15eccc2772049f13b34fea28aab9d",
+    "content-hash": "3c31d67cad4d44212b45ff8c6d015e8e",
     "packages": [
         {
-            "name": "neverwoods/validformbuilder",
-            "version": "v4.1.6",
+            "name": "validformbuilder/validformbuilder",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/neverwoods/validformbuilder.git",
-                "reference": "b81be05d98358416ed340e9c4f58074fbdcb48a7"
+                "url": "https://github.com/validformbuilder/validformbuilder.git",
+                "reference": "a6ca9880e75aa7aeecceac894446d1ce9864a526"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neverwoods/validformbuilder/zipball/b81be05d98358416ed340e9c4f58074fbdcb48a7",
-                "reference": "b81be05d98358416ed340e9c4f58074fbdcb48a7",
+                "url": "https://api.github.com/repos/validformbuilder/validformbuilder/zipball/a6ca9880e75aa7aeecceac894446d1ce9864a526",
+                "reference": "a6ca9880e75aa7aeecceac894446d1ce9864a526",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +25,7 @@
                 "volnix/csrf": "~1.0"
             },
             "require-dev": {
-                "phpdocumentor/phpdocumentor": "dev-master"
+                "phpdocumentor/phpdocumentor": "dev-develop"
             },
             "type": "library",
             "autoload": {
@@ -55,7 +54,7 @@
                 "form",
                 "validation"
             ],
-            "time": "2017-01-10 10:50:23"
+            "time": "2017-07-27 15:07:15"
         },
         {
             "name": "volnix/csrf",
@@ -95,13 +94,15 @@
             ],
             "description": "CSRF protection library that compares provided token to session token to ensure request validity.",
             "homepage": "https://github.com/volnix/csrf",
-            "time": "2015-11-24 15:32:52"
+            "time": "2015-11-24T15:32:52+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "validformbuilder/validformbuilder": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
