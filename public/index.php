@@ -3,11 +3,10 @@
  * Some settings and configuration
  */
 $includePath = '../src/sandbox.php';
-$showSource = false;
 
 ?>
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -31,17 +30,15 @@ $showSource = false;
 <p>This file serves as a playground for ValidForm Builder. Edit the contents of <code>src/sandbox.php</code> to change the form below. Alternatively, you can <a href="examples.php">browse through the form examples</a>.</p>
 
 <h2 id="output">Output</h2>
-<a href="#source">View source</a><br>
 <?php
 
+/** @noinspection PhpIncludeInspection */
 require_once($includePath);
 
 ?>
 
-<?php if ($showSource): ?>
 <hr>
 <h2 id="source">Source of <?=$includePath?></h2>
-<a href="#output">View output</a><br>
 <pre>
 <code>
 <?php
@@ -54,10 +51,6 @@ echo $source;
 </code>
 </pre>
 
-<br>
-<a href="#source">View source</a> - <a href="#output">View output</a><br>
-
 <script>hljs.initHighlightingOnLoad();</script>
-<?php endif; ?>
 </body>
 </html>
