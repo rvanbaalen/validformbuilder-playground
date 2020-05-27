@@ -2,7 +2,9 @@
 /**
  * Some settings and configuration
  */
+require_once '../src/utilities.php';
 $includePath = '../src/sandbox.php';
+$release = getPackageVersion('validformbuilder/validformbuilder');
 
 ?>
 <!doctype html>
@@ -27,7 +29,8 @@ $includePath = '../src/sandbox.php';
 <body>
 
 <h1>ValidForm Builder Playground</h1>
-<p>This file serves as a playground for ValidForm Builder. Edit the contents of <code>src/sandbox.php</code> to change the form below. Alternatively, you can <a href="examples.php">browse through the form examples</a>.</p>
+<pre>ValidForm Builder version installed: <?php echo $release ?></pre>
+<p>This file serves as a playground for <a href="https://github.com/validformbuilder/validformbuilder">ValidForm Builder</a>. Edit the contents of <code>src/sandbox.php</code> to change the form below. Alternatively, you can <a href="examples.php">browse through the form examples</a>.</p>
 
 <h2 id="output">Output</h2>
 <?php

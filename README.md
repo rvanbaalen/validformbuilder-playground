@@ -17,8 +17,8 @@ Just use `docker run --rm -p 8000:8000 --name vfb-playground validformbuilder/pl
 
 ## Get started
 
-Run `open http://localhost:8000 && php -S localhost:8000 -t public/` to get started. This will start a 
-basic webserver on `localhost:8000`
+Run `php -S localhost:8000 -t public/ && open http://localhost:8000` to get started. 
+This will start a basic webserver on `localhost:8000`
 
 ## Requirements
 
