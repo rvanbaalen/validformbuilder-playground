@@ -21,6 +21,5 @@ jobs:
           repository: validformbuilder/playground
           tags: latest
           tag_with_ref: true
-          path: ../../
           dockerfile: ../../Dockerfile
           add_git_labels: true
