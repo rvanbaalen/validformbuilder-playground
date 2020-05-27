@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "3c31d67cad4d44212b45ff8c6d015e8e",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/validformbuilder/validformbuilder.git",
-                "reference": "a6ca9880e75aa7aeecceac894446d1ce9864a526"
+                "reference": "19f477cac4af17a193e14ace4462d840801d9c5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/validformbuilder/validformbuilder/zipball/a6ca9880e75aa7aeecceac894446d1ce9864a526",
-                "reference": "a6ca9880e75aa7aeecceac894446d1ce9864a526",
+                "url": "https://api.github.com/repos/validformbuilder/validformbuilder/zipball/19f477cac4af17a193e14ace4462d840801d9c5a",
+                "reference": "19f477cac4af17a193e14ace4462d840801d9c5a",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
                 "volnix/csrf": "~1.0"
             },
             "require-dev": {
-                "phpdocumentor/phpdocumentor": "dev-develop"
+                "phpdocumentor/phpdocumentor": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -35,7 +35,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GNU GPL v2"
+                "LGPL-2.0"
             ],
             "authors": [
                 {
@@ -54,7 +54,7 @@
                 "form",
                 "validation"
             ],
-            "time": "2017-07-27 15:07:15"
+            "time": "2020-04-03T18:34:47+00:00"
         },
         {
             "name": "volnix/csrf",
@@ -106,5 +106,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
