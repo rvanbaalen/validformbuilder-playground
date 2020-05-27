@@ -38,7 +38,8 @@ If you prefer using the docker image, make sure you have
 
 - [X] Allow users to submit example forms and view results
 - [X] Create a docker container for easy access to the playground
-- [ ] Automate docker image builds
+- [X] Automate docker image builds
+- [ ] Trigger builds when new versions of ValidForm Builder are pushed
 - [ ] Use front-end framework like bootstrap for nicer styling
 - [ ] Implement something like https://github.com/Corveda/PHPSandbox to create a hosted version 
       of the ValidForm Builder Playground
