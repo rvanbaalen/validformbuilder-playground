@@ -1,3 +1,5 @@
+![CI](https://github.com/validformbuilder/playground/workflows/CI/badge.svg?branch=master)
+
 # ValidForm Builder Playground
 An easy to use playground to get your hands dirty with ValidForm Builder
 
