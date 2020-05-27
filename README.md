@@ -4,11 +4,14 @@ An easy to use playground to get your hands dirty with ValidForm Builder
 ## Installation
 
 ### Local usage
-Run `composer install` from the project root. This will install all dependencies, trigger a `yarn install` and open your
-web browser once everything is done.
+Clone the repository and run `composer install` from the project root. This will install all dependencies, 
+trigger a `yarn install` and open your web browser once everything is done.
 
 ### Docker
-If you prefer using docker, use `docker run --rm -p 8000:8000 --name vfb-playground validformbuilder/playground`
+If you have Docker for Desktop installed, you can pull the `validformbuilder/playground` image from the 
+Docker Hub to immediately browse through all of the example code.
+
+Just use `docker run --rm -p 8000:8000 --name vfb-playground validformbuilder/playground`
 
 ## Get started
 
