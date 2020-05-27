@@ -8,10 +8,10 @@ on:
       - '*'
   pull_request:
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Build image and push to Docker Hub
 
     steps:
       - uses: docker/build-push-action@v1
@@ -19,7 +19,5 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: validformbuilder/playground
-          tags: latest
           tag_with_ref: true
-          path: ./../..
           add_git_labels: true
