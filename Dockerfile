@@ -13,6 +13,8 @@ RUN \
 COPY . /src/validformbuilder
 WORKDIR /src/validformbuilder
 
-RUN yarn install && composer install;
+RUN yarn install && composer install --no-interaction --optimize-autoloader && \
+    # Always install the most recent version of ValidForm Builder
+    composer update validformbuilder/validformbuilder;
 
 CMD ["php", "-S", "0.0.0.0:8000", "-t", "public/"]

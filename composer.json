@@ -3,7 +3,8 @@
     "description": "An easy and fast playground for ValidForm Builder",
     "type": "project",
     "require": {
-        "validformbuilder/validformbuilder": "dev-master"
+        "validformbuilder/validformbuilder": "dev-master",
+        "ext-json": "*"
     },
     "license": "MIT",
     "authors": [
