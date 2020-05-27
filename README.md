@@ -1,27 +1,39 @@
 # ValidForm Builder Playground
 An easy to use playground to get your hands dirty with ValidForm Builder
 
-## Install
+## Installation
 
-Run `composer install` from the project root
+### Local usage
+Run `composer install` from the project root. This will install all dependencies, trigger a `yarn install` and open your
+web browser once everything is done.
+
+### Docker
+If you prefer using docker, use `docker run --rm -p 8000:8000 --name vfb-playground validformbuilder/playground`
 
 ## Get started
 
-Run `open http://localhost:8000 && php -S localhost:8000 -t public/` to get started. This will start a basic webserver on `localhost:8000`
+Run `open http://localhost:8000 && php -S localhost:8000 -t public/` to get started. This will start a 
+basic webserver on `localhost:8000`
 
 ## Requirements
 
+### Local
 You need to have `composer` and `yarn`* installed on your development machine.
+On a Mac, this can be easily installed using [Homebrew](https://brew.sh): `brew install php@7.3 composer yarn`
 
-**Yarn serves as a faster alternative for `npm`*
+### Docker
+If you prefer using the docker image, make sure you have 
+[Docker for Desktop](https://www.docker.com/products/docker-desktop) installed on your local machine.
 
 ### Resources:
- - [What is Yarn](https://code.facebook.com/posts/1840075619545360)
  - [How to install Yarn](https://yarnpkg.com/en/docs/install)
  - [How to install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
  
 ## Todo
 
 - [X] Allow users to submit example forms and view results
+- [X] Create a docker container for easy access to the playground
+- [ ] Automate docker image builds
 - [ ] Use front-end framework like bootstrap for nicer styling
-- [ ] Implement something like https://github.com/Corveda/PHPSandbox to create a hosted version of the ValidForm Builder Playground
+- [ ] Implement something like https://github.com/Corveda/PHPSandbox to create a hosted version 
+      of the ValidForm Builder Playground
